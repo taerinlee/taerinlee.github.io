@@ -1,5 +1,5 @@
 ---
-title: "Second record from meetings"
+title: "[2021-02-02] Second record from meetings"
 date: 2021-02-02 22:26:28 -0400
 categories: meeting
 ---
