@@ -32,8 +32,15 @@ If developer already trained well what they create, It is getting more trustful 
 What makes better code and develop team also needs to care level of team, and budget(connected to schedule) for project.
 
 
+-----------------------------------------------------------
+
+
 10:30-11:30(1hour)	Meeting(Summary of Project)
+
 12:30-13:30(1hour)	training communication tool
+
 13:30-16:30(3hours)	Meeting(Standup/UI Interaction/Intro of Design and Project)
+
 16:30-17:00(30minutes) 	Meeting(weekly development check)
+
 17:00-19:00(2hours) 	Organize the day and get more info with team in person(jira, figma)
