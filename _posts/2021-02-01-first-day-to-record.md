@@ -4,7 +4,7 @@ date: 2021-02-01 22:26:28 -0400
 categories: meeting record
 ---
 
-Meeding(Intro of Design & project)
+1. Meeting(Intro of Design & project)
 * The standard to convert from design to web markup languages:
 Korea and abroad has different subject to convert design to web markup page.
 Korea has role as publisher, so web markup and script page tend to seperated.
@@ -23,7 +23,8 @@ Detail Info modify page: Possible to modify date and time together.
 -> In this case What would happen when human modify info in Summary page?
 
 
-Meeting(Weekly FE developer meeting): 
+
+2. Meeting(Weekly FE developer meeting): 
 * If test develop is important?
 Its always issue whether make test module. It indeed higer understanding level with right test scenario than just make module.
 If developer makes wrong test module? It also indeed right check list for test module.
@@ -31,8 +32,8 @@ If developer already trained well what they create, It is getting more trustful 
 What makes better code and develop team also needs to care level of team, and budget(connected to schedule) for project.
 
 
-10:30~11:30(1hour)	Meeting(Summary of Project)
-12:30~13:30(1hour)	training communication tool
-13:30~16:30(3hours) Meeting(Standup/UI Interaction/Intro of Design and Project)
-16:30~17:00(30minutes) Meeting(weekly development check)
-17:00~19:00(2hours) Organize the day and get more info with team in person(jira, figma)
+10:30-11:30(1hour)	Meeting(Summary of Project)
+12:30-13:30(1hour)	training communication tool
+13:30-16:30(3hours)	Meeting(Standup/UI Interaction/Intro of Design and Project)
+16:30-17:00(30minutes) 	Meeting(weekly development check)
+17:00-19:00(2hours) 	Organize the day and get more info with team in person(jira, figma)
