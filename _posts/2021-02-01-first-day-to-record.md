@@ -1,7 +1,7 @@
 ---
 title: "First day to record"
 date: 2021-02-01 22:26:28 -0400
-categories: meeting record
+categories: meeting
 ---
 
 1. Meeting(Intro of Design & project)
