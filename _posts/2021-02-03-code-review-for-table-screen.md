@@ -1,5 +1,5 @@
 ---
-title: "[2021-02-03] first code review for table screen"
+title: "[2021-02-03] code review for table screen"
 date: 2021-02-03 22:26:28 -0400
 categories: meeting
 ---
