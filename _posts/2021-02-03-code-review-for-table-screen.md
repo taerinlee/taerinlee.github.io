@@ -10,41 +10,41 @@ Got reviewd code for table
 
   e.g.
   
-    switch (index) {
-        case 0:
-          className = `${className} ${styles.rightDivider}`;
-          rowSpan = 2;
-          break;
-        case 1:
-          className = `${className} ${styles.rightDivider}`;
-          columnSpan = 5;
-          break;
-        default:
-          break;
-      }
+      switch (index) {
+          case 0:
+            className = `${className} ${styles.rightDivider}`;
+            rowSpan = 2;
+            break;
+          case 1:
+            className = `${className} ${styles.rightDivider}`;
+            columnSpan = 5;
+            break;
+          default:
+            break;
+        }
     
 * Point 2. Looping for all row. e.g. total, summary, use Switch(Do not loop whole data area)
 
   e.g.
   
-    switch (index) {
-        case 11:
-          classNameBundle = `${classNameBundle} ${styles.rightNone}`;
-          break;
-        default:
-      }
+      switch (index) {
+          case 11:
+            classNameBundle = `${classNameBundle} ${styles.rightNone}`;
+            break;
+          default:
+        }
     
 * Point 3. Use 'br' tag for 2 row of column
 
   e.g.
   
-    <div className={styles.summaryHeader} dangerouslySetInnerHTML={{ __html: status.place }} />
+      <div className={styles.summaryHeader} dangerouslySetInnerHTML={{ __html: status.place }} />
   
 * Point 4. Use key value for looping column
 
   e.g.
   
-    const keys = Object.keys(data[0]).filter((d) => d !== 'placeNmKor' && d !== 'placeNmEng') as tableHeaderKeys[];
+      const keys = Object.keys(data[0]).filter((d) => d !== 'placeNmKor' && d !== 'placeNmEng') as tableHeaderKeys[];
 
         keys.map((item, i) => renderDataRowWithIndex(item, status, className, i))
 
@@ -55,10 +55,10 @@ Got reviewd code for table
         }
   
   
-Check out item #1 Don't Repeat Yourself (DRY) principle.
+2. Check out item #1 Don't Repeat Yourself (DRY) principle.
 5 Essential Takeaways From “The Pragmatic Programmer” | by Jamie Bullock | Better Programming | Feb, 2021 | Medium
+: As I got advice mostly I need to keep not make same or similar code loop for table to show data row.normal data set row, total row, summary row, balance row, It will be many kind of row and some different kind of style for column or header as well. Important to figure out to make short the code, but do not repeat same code.
 
-As I got advice mostly I need to keep not make same or similar code loop for table to show data row.normal data set row, total row, summary row, balance row, It will be many kind of row and some different kind of style for column or header as well. Important to figure out to make short the code, but do not repeat same code.
 
 -----------------------------------------------------------
 
