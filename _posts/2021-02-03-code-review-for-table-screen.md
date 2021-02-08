@@ -10,7 +10,7 @@ Got reviewd code for table
 
   e.g.
   
-    ```switch (index) {
+    switch (index) {
         case 0:
           className = `${className} ${styles.rightDivider}`;
           rowSpan = 2;
@@ -21,30 +21,30 @@ Got reviewd code for table
           break;
         default:
           break;
-      }```
+      }
     
 * Point 2. Looping for all row. e.g. total, summary, use Switch(Do not loop whole data area)
 
   e.g.
   
-    ```switch (index) {
+    switch (index) {
         case 11:
           classNameBundle = `${classNameBundle} ${styles.rightNone}`;
           break;
         default:
-      }```
+      }
     
 * Point 3. Use '<br />' tag for 2 row of column
 
   e.g.
   
-    ```<div className={styles.summaryHeader} dangerouslySetInnerHTML={{ __html: status.place }} />```
+    <div className={styles.summaryHeader} dangerouslySetInnerHTML={{ __html: status.place }} />
   
 * Point 4. Use key value for looping column
 
   e.g.
   
-    ```const keys = Object.keys(data[0]).filter((d) => d !== 'placeNmKor' && d !== 'placeNmEng') as tableHeaderKeys[];
+    const keys = Object.keys(data[0]).filter((d) => d !== 'placeNmKor' && d !== 'placeNmEng') as tableHeaderKeys[];
 
         keys.map((item, i) => renderDataRowWithIndex(item, status, className, i))
 
@@ -52,7 +52,7 @@ Got reviewd code for table
           return (
             <div>status[item]</div>
           )
-        }```
+        }
   
   
 Check out item #1 Don't Repeat Yourself (DRY) principle.
