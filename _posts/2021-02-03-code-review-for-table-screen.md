@@ -34,7 +34,7 @@ Got reviewd code for table
         default:
       }
     
-* Point 3. Use '<br />' tag for 2 row of column
+* Point 3. Use 'br' tag for 2 row of column
 
   e.g.
   
