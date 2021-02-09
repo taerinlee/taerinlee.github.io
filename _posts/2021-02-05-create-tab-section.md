@@ -15,7 +15,7 @@ Task is making a tab in a page. First question was should I use open UI library�
 
 Style 1:  material ui tab components
 
-Real button Html is inside several div, it was difficult to customizing design.
+It was a lot of div outside of button, so it was difficult to customizing design.
 
 
     function TabPanel(props: ITabPanelProps): React.ReactElement {
@@ -59,8 +59,8 @@ Real button Html is inside several div, it was difficult to customizing design.
 
 Style 2: Raw Html Button
 
-I only made two function, as this button only needs to data with  'useState'.
-Add 'className={clsx(styles.tab, { [styles.tabActive]: value === 0 })}' to customazing design.
+I only made two function, as this button only needs to set datas with  'useState'.
+Possible to customazing design only with 'className={clsx(styles.tab, { [styles.tabActive]: value === 0 })}'.
 
     
     function TabPanel(props: ITabPanelProps): React.ReactElement {
