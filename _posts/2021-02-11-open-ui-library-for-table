@@ -6,9 +6,36 @@ categories: research
 
 
 1. Meeting(status call) 
+
 I requested to research to compare raw table, material ui, ant ui table.
 
+  * Type of table
 
+  1. Raw table
+
+  2. Material UI table
+
+  3. Ant Ui table
+
+
+  * Module for table
+
+  1. Table
+
+  2. Switch
+
+
+  * Interaction in table
+
+  1. Collapsible row in table
+
+  2. Make modal when hover to data in table
+
+
+< conclusion >
+  I decided to keep the current raw code table, because when I looked at all screens of design, There were customized rows that can't be expressed by the UI library. It needs a blank row between rows with data. Maybe I can return <></>.
+  
+  As my team made table components really well, It doesn't look like I need a UI library for the table frame.If I need a UI library, I rather use Material UI as It is the main theme for my current project. Also Material UI has all components for the table frame as What Ant UI has.I need to make a switch component, so I will use Material.
 
 -----------------------------------------------------------
 
