@@ -5,7 +5,7 @@ categories: meeting codereview
 ---
 
 
-1. Meeting(Develper week call)
+1. Meeting(Developer week call)
 
 Topic to discussion
 
@@ -13,9 +13,9 @@ Topic to discussion
 
 * what kind of json will delivery might be issue to make table
 
-Tip from team!
+Tip from the team!
 
-If want to make dynamic function, also can return '<></>' in order to not return any data.
+If I want to make a dynamic function, I can also return '<></>' in order to not return any data.
  
  
 
@@ -29,11 +29,11 @@ If want to make dynamic function, also can return '<></>' in order to not return
       {!isExpanded ? <img className={styles.icon} src={upImg} alt="Up" /> : <img className={styles.icon} src={downImg} alt="Down" />}
     </div>
 
--> then, I got eslint error like belorrow
+-> then, I got a eslint error like belorrow.
 
-Visible, non-interactive elements with click handlers must have at least one keyboard listener     jsx-a11y/click-events-have-key-events
+   Visible, non-interactive elements with click handlers must have at least one keyboard listener     jsx-a11y/click-events-have-key-events
 
-Need to solve it out.
+I need to solve it.
 
 
 -----------------------------------------------------------
