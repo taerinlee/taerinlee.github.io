@@ -7,47 +7,18 @@ categories: meeting
 
 1. Meeting(Status call)
 
+
+
 Question 1: Material ui? Antd ui? Its up to component
+ 
 
-It is table and tab component for now that I use, but I need to use select, switch, calendar soon.Select and Calendar made by team already. I can use it as they already made well.
+It is a table and tab component for now that I use, but I need to use select, switch, calendar soon. Select and Calendar made by the team already. I can use it as they already made it well.
 
-There are some interaction I need to concern about table, collapsible row, modal with mouseHover.It is possible to make as raw table or UI library.
+There are some interactions I need to make a collapsible table, modal with mouseHover on data in table. It is possible to make a raw table or UI library as well.
 
-When I made collapsible row in other demo project, It didnt make error with eslint.
-
-      {otherProps.index === 2 && <div onClick={() => setIsExpanded(!isExpanded)}>
-        {isExpanded ? <img src={upImg} alt="Up" /> : <img src={downImg} alt="Down" />}
-      </div>}
-
-But When I worked on real project I met a eslint problem keyboard up/down react button need to make(even though I didnt mean to have the function), I need to care more web standard more.
-
-Original source(https://codesandbox.io/s/expandable-table-row-material-ui-tr3ut?file=/demo.js) I had idea to make is Meterial UI also made KeyboardArrowDownIcon, KeyboardArrowUpIcon functions.
-
-It will be other case I need to follow current eslint's rule I didnt explore yet, and there are some interactions left also, my team decided to consider other ui library for table.
+As the current project uses Material ui as the main theme, ant ui for each component, I need to figure out what would be good for the table as well.
 
 
-* List
-
-1. Raw table
-
-2. Material UI table
-
-3. Antd Ui table
-
-
-* Module
-
-1. Table
-
-2. Switch
-
-* Interaction
-
-1. Collapsible row in table
-
-2. Make modal when hover to data in table
-
-3. switch data when clicked switch 
 
 
 Question 2: Global functions?
