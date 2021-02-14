@@ -23,9 +23,10 @@ As the current project uses Material ui as the main theme, ant ui for each compo
 
 Question 2: Global functions?
 
-I finished to make table for 3 times now. As I followed team's develop way, All function repeated 3 times as well in index.tsx.It is time to think to keep this way to develop or make global common functions.
+I finished making the table 3 times now. As I followed the team's development, All functions repeated 3 times as well in index.tsx. 
 
-I got answer that just keep current style in order to react faster to various screen from team.
+It is time to think about keeping this way to develop or make global common functions.I got an answer that I just keep the current style in order to react faster to various screens from the team.
+
 
         |--- src
 
