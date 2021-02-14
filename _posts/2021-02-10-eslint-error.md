@@ -5,33 +5,41 @@ categories: meeting codereview
 ---
 
 
+
 1. Meeting(Developer week call)
 
-Topic to discussion
+ Topic to discussion
 
-* suggested to make Global function by other developer
+ * suggested to make Global function by other developer
 
-* what kind of json will delivery might be issue to make table
+ * what kind of json will delivery might be issue to make table
 
-Tip from the team!
+ Tip from the team!
 
-If I want to make a dynamic function, I can also return '<></>' in order to not return any data.
+ * If I want to make a dynamic function, I can also return '<></>' in order to not return any data.
  
  
+
 
 2. Meeting(status call) 
 
-* Eslint error
+ * Eslint error
+ 
+ When I made collapsible row in other demo project, It didnt make error with eslint.
+ 
+ But When I worked on real project I met a eslint problem keyboard up/down react button need to make(even though I didnt mean to have the function), I need to care more web standard more.
 
--> First writing
+
+ -> First writing
 
     <div onClick={() => setIsExpanded(!isExpanded)}>
       {!isExpanded ? <img className={styles.icon} src={upImg} alt="Up" /> : <img className={styles.icon} src={downImg} alt="Down" />}
     </div>
 
--> then, I got a eslint error like belorrow.
+ -> then, I got a eslint error like belorrow.
 
-   Visible, non-interactive elements with click handlers must have at least one keyboard listener     jsx-a11y/click-events-have-key-events
+    Visible, non-interactive elements with click handlers must have at least one keyboard listener     jsx-a11y/click-events-have-key-events
+
 
 I need to solve it.
 
