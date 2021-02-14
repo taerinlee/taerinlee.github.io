@@ -8,11 +8,11 @@ categories: codereview
 
 1. Collapsible table
 
-I needed to make collapsible table in React.js + TypeScript.
+I needed to make a collapsible table in React.js + TypeScript.
 
 I found example: https://codesandbox.io/s/expandable-table-row-material-ui-tr3ut?file=/demo.js
 
-The example collapsible made with material ui and React.js, so I needed to make own customized components for own project.
+The example collapsible made with material ui and React.js, so I needed to make my own customized components.
 
 The customized code is like here: https://github.com/taerinlee/demo-react-web/blob/master/src/components/ExpandableTable/index.js#L23
 
