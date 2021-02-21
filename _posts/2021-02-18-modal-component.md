@@ -10,6 +10,8 @@ categories: codereview
 https://github.com/taerinlee/demo-react-web/blob/master/src/components/common/ModalContainer/index.tsx
 
 
+* Confirm code without comment by team
+
 
 
 -----------------------------------------------------------
