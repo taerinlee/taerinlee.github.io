@@ -1,6 +1,6 @@
 ---
 title: "[2021-02-17] Time to split functions"
-date: 2021-02-12 22:26:28 -0400
+date: 2021-02-17 22:26:28 -0400
 categories: meeting
 ---
 
