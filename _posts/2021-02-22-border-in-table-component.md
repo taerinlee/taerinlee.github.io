@@ -20,6 +20,7 @@ categories: codereview
 
 
 * Improved code
+
       <td className={clsx({ [styles.bottomRow]: x >= array.length - 1 })}column</td>
   
   
